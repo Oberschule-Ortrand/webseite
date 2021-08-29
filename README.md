@@ -1,4 +1,4 @@
-# webseite
+# Webseite
 
 Schulwebseite 
 
@@ -27,15 +27,16 @@ GRUNDSCHULE:
 - liste
 
 
+Andere wichtige Menüpunkte:
 
-INISEK wichtig 
-Schul sozial Arbeit 
-Schüler schreiben 
-Speiseplan 
-Schulordnung 
-Bewertung und zensierung
-Förderverein 
-Frau schwucho Arbeitsagentur Alles mit praktikum und Berufsorientierung 
-Schließfächer 
+- INISEK wichtig 
+- Schul sozial Arbeit 
+- Schüler schreiben 
+- Speiseplan 
+- Schulordnung 
+- Bewertung und zensierung
+- Förderverein 
+- Frau schwucho Arbeitsagentur Alles mit praktikum und Berufsorientierung 
+- Schließfächer 
 
 CLOUD: 
