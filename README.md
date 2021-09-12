@@ -37,3 +37,13 @@ Andere wichtige Menüpunkte:
 - Schließfächer 
 
 CLOUD: 
+
+Farben:
+
+- #004746 
+- #185359
+- #0a5e69 
+
+-webkit-linear-gradient(top,#004746 0%,#0a5e69 25%,#185359 18%)
+
+FArbe aus LOGO = #036b6a
