@@ -82,7 +82,7 @@ nav{
 
 /* layout main */
 body {
-  background-color: white;
+  background-color: grey;
 }
 
 /* Überschriften */
@@ -90,8 +90,19 @@ h1 {
   text-align: center;
 }
 
+/* Teilüberschriften */
+h2 {
+  text-align: center;
+}
+
+/* Text */
+p {
+  text-align: justify;
+}
+
 /* layout left collum */
 .left {
+  
     float: left;
     width: 20%;
     margin-right: 2.5%;
@@ -101,12 +112,11 @@ h1 {
 
 /* layout right collum */
 .right {
-
+  background-color: rgb(51, 48, 48);
   float: left;
   width: 75%;
   padding-top: 100px;
   border-left: 5px solid #036b6a;
-  background-color: white;
   
 }
 /* left collum pieces */
@@ -125,18 +135,158 @@ h1 {
   margin-left: 10%;
   margin-bottom: 30px;
   text-align: center;
+  background-color: #036b6a;
+  border-color: #575555;
+  border-style: solid;
+  border-radius: 12px;
 }
 
 /* layout design button */
-.button1 {
-  font: bold 40px Arial;
-  padding: 10px;
-  text-decoration: none;
-  background-color: #036b6a;
-  color: white;
-  border-color: #333333;
+.btn {
+  width: 80%;
   border-style: solid;
   border-radius: 12px;
+  font-family: 'Lato';
+  font-size: 2vw;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  display: inline-block;
+  margin-left: 10%;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:after {
+  content: '';
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.btn:before {
+  font-family: 'FontAwesome';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+
+/* Button 1 */
+.btn-1 {
+  background: #3498db;
+  color: #fff;
+}
+
+.btn-1:hover {
+  background: #2980b9;
+}
+
+.btn-1:active {
+  background: #2980b9;
+  top: 2px;
+}
+
+.btn-1:before {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  line-height: 3;
+  font-size: 140%;
+  width: 60px;
+}
+
+/* Button 2 */
+.btn-2 {
+  background: #2ecc71;
+  color: #fff;
+}
+
+.btn-2:hover {
+  background: #27ae60;
+}
+
+.btn-2:active {
+  background: #27ae60;
+  top: 2px;
+}
+
+.btn-2:before {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  line-height: 3;
+  font-size: 140%;
+  width: 60px;
+}
+
+/* Button 3 */
+.btn-3 {
+  background: #e74c3c;
+  color: #fff;
+}
+
+.btn-3:hover {
+  background: #c0392b;
+}
+
+.btn-3:active {
+  background: #c0392b;
+  top: 2px;
+}
+
+.btn-3:before {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  line-height: 3;
+  font-size: 140%;
+  width: 60px;
+}
+
+/* Button 3 */
+.btn-4 {
+  background: #34495e;
+  color: #fff;
+}
+
+.btn-4:hover {
+  background: #2c3e50;
+}
+
+.btn-4:active {
+  background: #2c3e50;
+  top: 2px;
+}
+
+.btn-4:before {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  line-height: 3;
+  font-size: 140%;
+  width: 60px;
 }
 
 /* right collum pieces */
