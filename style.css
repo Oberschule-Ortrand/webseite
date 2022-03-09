@@ -41,6 +41,7 @@ nav{
   color: white;
   padding: 17.5px;
   font-size: 16px;
+  font-weight: bold;
   border: none;
   cursor: pointer;
   border-radius: 5px;
@@ -124,9 +125,15 @@ p {
 /* left collum picture */
 .lcp {
   margin-left: 10%;
-  width: 80%;
+  width: 90%;
   height: auto;
   margin-bottom: 10px;
+}
+
+.white {
+  border-style: solid;
+  border-color: #036b6a;
+  border-radius: 12px;
 }
 
 /* layout design buttonbox */
@@ -143,11 +150,11 @@ p {
 
 /* layout design button */
 .btn {
-  width: 80%;
+  width: 90%;
   border-style: solid;
   border-radius: 12px;
   font-family: 'Lato';
-  font-size: 2vw;
+  font-size: 1.5vw;
   color: inherit;
   background: none;
   cursor: pointer;
@@ -186,12 +193,9 @@ p {
   -webkit-font-smoothing: antialiased;
 }
 
-
-
-
 /* Button 1 */
 .btn-1 {
-  background: #3498db;
+  background: #036b6a;
   color: #fff;
 }
 
@@ -214,80 +218,7 @@ p {
   width: 60px;
 }
 
-/* Button 2 */
-.btn-2 {
-  background: #2ecc71;
-  color: #fff;
-}
 
-.btn-2:hover {
-  background: #27ae60;
-}
-
-.btn-2:active {
-  background: #27ae60;
-  top: 2px;
-}
-
-.btn-2:before {
-  position: absolute;
-  height: 100%;
-  left: 0;
-  top: 0;
-  line-height: 3;
-  font-size: 140%;
-  width: 60px;
-}
-
-/* Button 3 */
-.btn-3 {
-  background: #e74c3c;
-  color: #fff;
-}
-
-.btn-3:hover {
-  background: #c0392b;
-}
-
-.btn-3:active {
-  background: #c0392b;
-  top: 2px;
-}
-
-.btn-3:before {
-  position: absolute;
-  height: 100%;
-  left: 0;
-  top: 0;
-  line-height: 3;
-  font-size: 140%;
-  width: 60px;
-}
-
-/* Button 3 */
-.btn-4 {
-  background: #34495e;
-  color: #fff;
-}
-
-.btn-4:hover {
-  background: #2c3e50;
-}
-
-.btn-4:active {
-  background: #2c3e50;
-  top: 2px;
-}
-
-.btn-4:before {
-  position: absolute;
-  height: 100%;
-  left: 0;
-  top: 0;
-  line-height: 3;
-  font-size: 140%;
-  width: 60px;
-}
 
 /* right collum pieces */
 
@@ -295,8 +226,8 @@ p {
 .rct {
   z-index: 2;
   font-size: 25px;
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
   margin-bottom: 10px;
   padding: 10px;
   border-style: solid;
@@ -307,8 +238,8 @@ p {
 
 /* right collum picture */
 .rcp {
-  margin-left: 10%;
-  width: 80%;
+  margin-left: 5%;
+  width: 90%;
   height: auto;
   margin-bottom: 10px;
 }
